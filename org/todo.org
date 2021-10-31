@@ -1,0 +1,20 @@
+#+TITLE: Agenda
+
+* Misc.
+** DONE Install and configure *FCITX5*
+   
+* Arata
+** DONE Create the program specification
+** TODO Test *TERMIOS.h* options
+
+* Personal
+** DONE Call /Cuqui/
+** DONE Call /Raul/
+** DONE Receive "bonos" for Rosario
+   
+* Study
+** Languages
+*** AWK
+*** Bash
+** Software
+*** Org

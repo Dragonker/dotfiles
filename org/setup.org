@@ -1,0 +1,33 @@
+#+TITLE: How I set up my PC after a fresh Linux install
+
+* Install vital programs
+  1. Editors -- nano, vim, emacs
+  2. WM -- Xorg and spectrwm (for now)
+  3. Firefox
+  4. git
+
+** Vim configuration
+   1. Make 
+
+* Configuration
+  1. Sound   -- install *alsa-utils* and enable system service if needed
+  2. Network -- install *dhcpcd*
+
+* Install fonts
+  1. DejaVu, Liberation, Noto Sans (CJK and Emoji) -- system fonts
+  2. Iosevka                                       -- Terminal and coding font
+  3. Adobe Source Han Sans                         -- Japanese input
+
+* Games
+  1. DOOM -- install *Chocolate DOOM*, *Eternity*, and *GZDOOM*
+
+** Chocolate/Crispy DOOM music
+   1. Downloads eawpats.zip from Doomworld and extract
+   2. Run *Chocolate DOOM Setup* and point to the location of the extracted timidity.cfg file
+   3. If this doesn't work (like on Arch) and you get a message like "freepats.cfg doesn't exist", check the location of the SDL_mixer library and use the following command:
+
+      strings /usr/lib/libSDL2_mixer-2.0.so.0 | grep timidity
+
+      It'll output some valid locations for you to move the extracted timidity.cfg file to.
+
+      (I created the /usr/local/lib/timidity directory and put the extracted timidity.cfg, with the *dir* directive to point to the extracted files, and voila!)

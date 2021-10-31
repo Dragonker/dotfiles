@@ -1,0 +1,3 @@
+* Statistics
+** Compound interest
+*** The rule of 72

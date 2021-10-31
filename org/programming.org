@@ -1,0 +1,4 @@
+* Attacking programming problems
+** Rapid prototyping
+** Divide and conquer
+** Metaprogramming (programs that write other programs)

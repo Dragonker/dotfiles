@@ -1,0 +1,124 @@
+* Kanji
+
+| Kanji | Radicals                       | Meaning             | Mnemonic                                                                                             |
+| 得    | loiter + sun + temple          | とく (acquire)      | If you loiter around the sun temple, you'll acquire a figurine of Tokugawa Ieyasu                    |
+| 加    | power + mouth                  | か (add)            | Your mouth has the power to add words together, like "camote" and "like"                             |
+| 冊    | bookshelf                      | さつ (book counter) | Using bookshelfs to count books is also part of being an assassin                                    |
+| 履    | flag + loiter + black hole     | り (boots)          | A flag loiters in a black hole. It marks where you left your boots. Some reeds have grown in!        |
+| 忙    | soul + death                   | ぼう (busy)         | You'll work your soul to death if you're always busy. Go bowling once in a while                     |
+| 閥    | gate + leader + drunkard       | ばつ (clique)       | In front of the gate lies a drunkard, the ex-leader of a popular clique: the Bats Clan               |
+| 布    | narwhal + towel                | ふ (cloth)          | To a narwhal, a towel is just normal cloth, but if you do, everybody'll call you a fool              |
+| 比    | compare                        | ひ (compare)        | Compare the heat today with the heat yesterday                                                       |
+| 歴    | cliff + tree + stop            | れき (continuation) | You stop at a cliff with a tree on it now that continuation is impossible without a wrecking ball    |
+| 続    | thread + sell                  | ぞく (continue)     | You have to sell thread to continue living without messing with the Bosozoku                         |
+| 減    | tsunami + feeling              | げん (decrease)     | When a tsunami comes, your feelings decrease, even Genji's                                           |
+| 易    | easy                           | い (easy)           | EASY is just E-ASY. Get it?                                                                          |
+| 絡    | thread + kiss                  | らく (entangle)     | If you put a thread in the middle of a kiss, you're going to entangle it and that's not RAKU         |
+| 笛    | bamboo + rice field            | てき (flute)        | What's my reason to be so close to the bamboo? Am making a flute! It's the latest tech               |
+| 容    | roof + valley                  | よう (form)         | If you put a roof over a valley, it'll change its form and become a yogurt!                          |
+| 団    | mouth + measurement            | だん (group)        | Use your mouth to take a measurement of this group. They call themselves Dante's followers           |
+| 史    | history                        | し (history)        | There's no bigger history freak than Yoshitsune                                                      |
+| 昆    | sun + compare                  | こん (insect)       | You can't really compare the sun to some insects, but you can compare the latter to condors          |
+| 徒    | loiter + run                   | と (junior)         | "Don't loiter--run, Junior!" said Indiana Jones just before he hit his toe                           |
+| 宙    | roof + reason                  | ちゅう (midair)     | You jumped off your roof for some reason and now you're floating in midair with Chewbacca!           |
+| 混    | tsunami + sun + compare        | こん (mix)          | Compare the sun with a tsunami: these two don't mix. Condors don't like the latter, either           |
+| 善    | sheep + horns + ground + mouth | ぜん (morally good) | A sheep loses its horns on the ground so it... blah blah, ZEN is morally good                        |
+| 順    | river + geoduck                | じゅん (order)      | Before geoducks swim in the river, they must know the order and sequence of water flow in June       |
+| 宇    | roof + dry                     | う (outer space)    | A roof keeps you dry and protects you from outer space. That's universal                             |
+| 詞    | say + director                 | し (part of speech) | What the director says is just part of his speech to Yoshitsune                                      |
+| 改    | oneself + winter               | かい (renew)        | If you focus on yourself on winter, you'll come renewed on January, ready to use a kayak             |
+| 乱    | tongue + umbrella              | らん (riot)         | Stabbing someone in the tongue with an umbrella starts a riot everytime. You better RAN now          |
+| 節    | bamboo + root + stamp          | せつ (season)       | On the bottom of bamboo roots there's a stamp of the four seasons. Three sets, in fact               |
+| 連    | scooter + car                  | れん (take along)   | Both a scooter and a car are things you should take along with you after connecting them with Ren    |
+| 舌    | tongue                         | した (tongue)       | You are sound asleep when your tongue drops out of your mouth and salivates all over the sheets      |
+| 暴    | sun + together + water         | ぼう (violence)     | When the sun gets together with water, only violence can ensue. They have a bowling match            |
+| 財    | shellfish + genius             | さい (wealth)       | Genius shellfish are very wealthy because they are genius and shellfish                              |
+| 若    | flowers + right                | わか (young)        | There're flowers on your right that are still very young. They love dancing to "Shakira's Waka Waka" |
+| 裕    | spirit + valley                | ゆう (abundant)     | In the spirit valley, Yu Narukami has abundant spirit friends                                        |
+| 尻    | flag + nine                    | しり (butt)         | You have nine flags. You take one and stuck it up your butt. You can't get it off so better ask Siri |
+| 確    | stone + forehead + turkey      | かく (certain)      | You take a stone to the forehead of a turkey. You are certain to hurt it but Kaku must not know      |
+| 械    | tree + drunkard + twenty       | かい (contramption) | Under a tree a drunkard sits with twenty little contramptions. One of them is actually a kayak       |
+| 犯    | animal + snake                 | はん (crime)        | Among animals, snakes are the most likely to commit a crime. Han Solo is their natural enemy         |
+| 害    | roof + life + mouth            | がい (damage)       | You slip off the roof, your life flashes before you, and you damage your mouth. Too much for a GUY   |
+| 議    | say + righteousness            | ぎ (deliberation)   | What you say is rightneousness, that's your style of deliberation and discussion: guillotine-like    |
+| 難    | chinese + turkey               | なん (difficult)    | A Chinese turkey is difficult to find because they are so rare. Have you found one? NAN              |
+| 災    | flood + fire                   | さい (disaster)     | A flood and a fire? This is a disaster! It's the fault of the new cyborg malfunctioning              |
+| 嫌    | woman + mona lisa              | けん (dislike)      | When a woman sees the Mona Lisa, she feels a strong feeling of dislike, so they call Kenshin         |
+| 困    | mouth + tree                   | こん (distressed)   | If you put your mouth on a tree, you're probably distressed or troubled, that's what condors do!     |
+| 夢    | flowers + net + forehead       | む (dream)          | A flowers net is upon your forehead in the evening. Or it was all a dream? Then you hear "moo, moo!" |
+| 震    | rain + landslide               | しん (earthquake)   | Rain causes a landslide that causes an earthquake. This is just what happened in Shin Megami Tensei! |
+| 在    | narwhal + stick + dirt         | ざい (exist)        | A narwhal sticks a stick into the dirt to see what exists underneath. He looks for a xylophone       |
+| 飛    | fly                            | ひ (fly)            | When you fly, you generate a lot of heat with your toes                                              |
+| 産    | stand + cliff + life           | さん (give birth)   | You stand on the Cliff of Life and give birth to a child. Surprisingly, he's wearing a Santa's hat   |
+| 罪    | net + criminal                 | ざい (guilt)        | Put a net around a criminal to trap their guilt and get back the stolen xylophone                    |
+| 穴    | hole                           | あな (hole)         | The hole is too wide for Ana to climb up                                                             |
+| 被    | spirit + skin                  | ひ (incur)          | A spirit loses its skin as part of the damages it incurs after death under heat stress               |
+| 個    | leader + mouth + old           | こ (individual)     | The leader with the old mouth it's truly a remarkable individual: wise but still childlike (子)      |
+| 機    | tree + poop + drunkard         | き (machine)        | Only a drunkard would poop under a tree and not use the machine toilet when he has the key           |
+| 妨    | woman + direction              | ぼう (obstruct)     | A woman with direction will have things obstruct her path, but she can demolish them with bowling    |
+| 倒    | leader + mole + knife          | とう (overthrow)    | Someone stabbed the mole leader with a knife to overthrow it. Now he is in Tokyo being healed        |
+| 経    | thread + tombstone             | けい (time passage) | Tying a thread to a tombstone each year will help manage the passage of time without cakes           |
+| 率    | lid + poop + explosion + cross | りつ (percent)      | Sitting on the lid of a toilet, an explosion blows up a large percent of it and makes you STAND      |
+| 圧    | cliff + dirt                   | あつ (pressure)     | The dirt under a cliff is going to be under a lot of pressure and is HOT (暑)                        |
+| 防    | building + direction           | ぼう (prevent)      | There's a building in that direction that'll prevent you from going further to the bowling shop      |
+| 臭    | self + big                     | くさ (stinking)     | Wash yourself with a big bar of soap if you are stinking because you were rolling in the GRASS (草)  |
+| 余    | hat + jackhammer               | よ (surplus)        | Whether you use a hat or not, a jackhammer creates a surplus of noise, yo                            |
+| 尾    | flag + fur                     | び (tail)           | You see a flag with a bit of fur on it. That's a tail! It needs to avoid the bees                    |
+| 論    | say + hat + ground + bookshelf | ろん (theory)       | They say that a hat on the ground of a bookshelf is the theory of RON                                |
+| 厚    | cliff + sun + child            | あつ (thick)        | Hanging off the edge of a cliff is a sun worshipping child with a thick unibrow. He's HOT (暑)       |
+| 妻    | ground + brush + woman         | さい (wife)         | On the ground, holding a brush, is the woman you call your wife drawing a cyborg                     |
+
+* Words
+
+| Word       | Kanji                           | Meaning                          | Mnemonic                                     | Type                    |
+| 上級       | above + level                   | じょうきゅう (advanced level)    |                                              | noun                    |
+| 味方       | flavor + direction              | みかた (ally)                    |                                              | noun, suru-verb, no-adj |
+| 売り上げ   | sell + above                    | うりあげ (amount sold)           |                                              | noun                    |
+| 不良       | not + good                      | ふりょう (bad)                   |                                              |                         |
+| 初歩       | first + walk                    | しょほ (basics)                  |                                              |                         |
+| 戦い       | war                             | たたかい (battle)                |                                              |                         |
+| 戦場       | war + location                  | せんじょう (battlefield)         |                                              |                         |
+| 予め       | beforehand                      | あらかじめ (beforehand)          | Beforehand, you saw Arakawa Under the Bridge |                         |
+| 初級       | first + level                   | しょきゅう (beginner level)      |                                              |                         |
+| 伝記       | transmit + write down           | でんき (biography)               |                                              |                         |
+| 生物学     | life + thing + study            | せいぶつがく (biology)           |                                              |                         |
+| 乗り場     | ride + location                 | のりば (bus stop)                |                                              |                         |
+| 注意       | pour + idea                     | ちゅうい (caution)               |                                              |                         |
+| 洋服       | western style + clothes         | ようふく (clothes)               |                                              |                         |
+| 共通点     | together + pass through + point | きょうつうてん (common point)    |                                              |                         |
+| 仲間       | relationship + interval         | なかま (companion)               |                                              |                         |
+| 競争       | competition + conflict          | きょうそう (competition)         |                                              |                         |
+| 便利       | convenient + profit             | べんり (convenient)              |                                              |                         |
+| 共同       | together + same                 | きょうどう (cooperation)         |                                              |                         |
+| 別         | separate                        | べつ (different)                 |                                              |                         |
+| 別人       | separate + person               | べつじん (different person)      |                                              |                         |
+| 教育       | teach + nurture                 | きょういく (education)           |                                              |                         |
+| 入学試験   | enter + study + try + test      | にゅうがくしけん (entrance exam) |                                              |                         |
+| 特に       | special                         | とくに (especially)              |                                              |                         |
+| 運命       | carry + fate                    | うんめい (fate)                  |                                              |                         |
+| 気持ち     | energy + hold                   | きもち (feeling)                 |                                              |                         |
+| 心持ち     | heart + hold                    | こころもち (feeling)             |                                              |                         |
+| 指         | finger                          | ゆび (finger)                    |                                              |                         |
+| 首位       | neck + rank                     | しゅい (first place)             |                                              |                         |
+| 一位       | one + rank                      | いちい (first place)             |                                              |                         |
+| 昔話       | long ago + talk                 | むかしばなし (folk tale)         |                                              |                         |
+| 食べ物     | food + thing                    | たべもの (food)                  |                                              |                         |
+| 友好       | friend + like                   | ゆうこう (friendship)            |                                              |                         |
+| 仕返し     | doing + return                  | しかえし (getting even)          |                                              |                         |
+| 神         | God                             | かみ (God)                       |                                              |                         |
+| 良い       | good                            | よい「いい」(good)               |                                              |                         |
+| 気持ちいい | energy + hold                   | きもちいい (good feeling)        |                                              |                         |
+| 努力       | toil + power                    | どりょく (great effort)          |                                              |                         |
+| 苦労       | suffering + labor               | くろう (hardship)                |                                              |                         |
+| 苦手       | suffering + hand                | にがて (hard to deal with)       |                                              |                         |
+| 高級       | tall + level                    | こうきゅう (high class)          |                                              |                         |
+| 平仮名     | flat + temporary + name         | ひらがな (Hiragana)             |                                              |                         |
+| 使い方     | use + direction                 | つかいかた (how to use)          |                                              |                         |
+| 〜付き     | attach                          | つき (including)                 |                                              |                         |
+| 不便       | not + convenient                | ふべん (inconvenient)            |                                              |                         |
+| 中級       | middle + level                  | ちゅうきゅう (middle level)      |                                              |                         |
+| 始めに     | begin                           | はじめに (in the beginning)      |                                              |                         |
+| 仕事       | doing + action                  | しごと (work)                    |                                              |                         |
+| 丁度いい   | street + degree                 | ちょうどいい (just right)        |                                              |                         |
+| 労働者     | labor + work + someone          | ろうどうしゃ (laborer)           |                                              |                         |
+| 命         | fate                            | いのち (life)                    |                                              |                         |

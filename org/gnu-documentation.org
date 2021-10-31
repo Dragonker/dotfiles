@@ -1,0 +1,34 @@
+#+TITLE: Face attributes
+
+Let's say we are new to Emacs and we want to /emphasize/ strings. What to do? Our first Google search may led us into the concept of *faces*. Faces are a list of properties that affect how a certain piece of text is shown. Fonts, colors, and emphasis markers are among these properties. Emacs comes with a comment face, a variable face, a function name face, etc. These default faces are stored as /symbols/, e.g. the string face is ~font-lock-string-face~. To modify these properties, there's ~set-face-attribute~.
+
+To put /italics/ on strings, for example, we would call ~set-face-attribute~ like this:
+
+#+BEGIN_SRC emacs-lisp
+  ;; Check documentation (C-h-f) for `set-face-attribute' for other valid values besides `italic'
+  (set-face-attribute 'font-lock-string-face nil :slant 'italic)
+#+END_SRC
+
+The ~:slant 'italic~ part is what Emacs calls an *attribute pair*, where the keyword argument (the one that starts with a colon) precedes a value.
+
+Several attribute pairs can be declared one after another:
+
+#+BEGIN_SRC emacs-lisp
+  ;; Bold + italics for SUPER strings
+  (set-face-attribute 'font-lock-string-face nil :slant 'italic :weight 'bold)
+#+END_SRC
+
+Last but not least, you can make a face inherit from another face(s) with the ~:inherit~ keyword.
+
+#+BEGIN_SRC emacs-lisp
+  ;; Now comments will be SUPER too
+  (set-face-attribute 'font-lock-comment-face nil :inherit 'font-lock-string-face)
+#+END_SRC
+
+Hope this will be useful to you!
+
+
+
+
+
+

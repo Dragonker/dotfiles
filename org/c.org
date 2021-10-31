@@ -1,0 +1,2 @@
+* Notes
+  - When doing arithmetic between floating-point and integer values, the integer will be converted to a float BEFORE the operation is done

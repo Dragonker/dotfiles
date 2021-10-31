@@ -1,0 +1,129 @@
+* Basics
+  1. /awk/ reads its input line by a line and splits each one into fields
+  2. By default, a field is a sequence of characters that doesn't contain any blanks or tabs
+  3. The first field in the current input linei s called $1, the second $2, and so forth
+  4. The entire line is called $0
+  5. Programs are a sequence of one or more pattern-action statements: /pattern { action }/
+  6. Expressions separated by a comma in a print statement are, by default, separated by a single blank when they are printed. Each line produced by print ends with a newline character. Both of these defaults can be changed
+  7. User-created variables are not declared
+  8. AWK variables used as numbers begin life with the value 0
+  9. AWK variables used as strings begin life with the null string
+  10. String concatenation in AWK is represented by writing string values one after the other
+  11. $0 doesn't retain its value in an END section
+  12. AWK control flow statements can only be used in actions
+  13. No braces are need to enclose flow statements if the body consists of a single statement
+  14. AWK comments start with a '#' character
+* Builtins
+  - The *NF* variable tracks the number of fields
+  - The *NR* variable tracks the current line number
+  - Any expression can be used after $ to denote a field number
+* Selection
+  1. Selection by comparison
+  2. Selection by computation
+  3. Selection by text content
+  4. Combinations of patterns. Patterns can be combined with parentheses and logical operators &&, ||, and !
+* BEGIN and END
+  - The special patterns BEGIN and END match before the first line of the first input file is read and after the last line of the last file has been processed, respectively
+* Notes
+  - The length functions takes in consideration spaces, so indentation with tabs and indentation with spaces will output different numbers
+  - The opening brace of an action must be on the same line as the pattern it accompanies
+  - A long statement may be spread over several lines by inserting a backslash and newline at each break
+  - Statements may also be broken after commas 
+* Regex
+  - Metacharacters need not to be quoted within character classes (e.g. [+-] is the same as (\+|-))
+* Patterns
+  - There are six types of patterns:
+    1. BEGIN { statements }
+    2. END { statements }
+    3. expression { statements }
+    4. //regular expression// { statements }
+    5. compound pattern { statements }
+    6. pattern1, pattern2 { statements }
+  - BEGIN and END do not combine with other patterns
+  - A range pattern (6th) cannot be part of any other pattern
+  - BEGIN and END are the only patterns that *require* and action
+  - Numeric comparisons are only done when both values (fields or otherwise) are numbers. If not, a string comparison is made
+  - A compound pattern is an expression that combines other patterns, using parentheses and the logical operators || (OR), && (AND), and ! (NOT)
+  - Range patterns consist of two patterns separated by a comma. It matches each line between an occurrence of pat1 and the next occurrence of pat2, inclusive;  pat2 may match the same line as pat1, making the range a single line. A range pattern cannot be part of any other pattern
+  | Pattern         | Example                  | Matches                                                              |
+  | BEGIN           | BEGIN                    | before any input has been read                                       |
+  | END             | END                      | after all input has been read                                        |
+  | expression      | $3 < 100                 | lines in which third field is less than 100                          |
+  | string-matching | //Asia//                   | lines that contain *Asia*                                              |
+  | compound        | $3 < 100 && $4 == "Asia" | lines in which third field is less than 100 and fourth field is *Asia* |
+  | range           | NR==10, NR==20           | tenth to twentieth lines of input inclusive                          |
+* Builtins
+  - NR
+  - NF
+  - FILENAME
+  - FNR
+  - FS
+  - OFS
+* Actions
+  - Statements in actions can include:
+    + /expressions/, with constants, variables, assignments, function calls, etc
+    + print /expression-list/
+    + printf(/format/, /expression-list/)
+    + if (/expression/) /statement/
+    + if (/expression/) /statement/ else /statement/
+    + while (/expression/) /statement/
+    + for (/expression/; /expression/; /expression/) /statement/
+    + for (/variable/ in /array/) /statement/
+    + do /statement/ while (/expression/)
+    + break
+    + continue
+    + next
+    + exit
+    + exit /expression/
+    + { /statements/ }
+** Expressions
+   - Expressions are combinations of primary expressions and other expressions with operators
+   - They include constants, variables, array references, function invocations, and varios built-ins, like field names
+*** Constants
+    - There are two types of constants: string and numeric
+    - String constants look like /"Hello world!."/ They may contain escape sequences
+    - Numeric constants are integers like *1127*, decimals like *3.14*, or a number in scientific notation like *0.707E-1*. All numbers are stored in floating point, the precision of which is machine dependent
+*** Variables
+    - Expressions can contain several kinds of variables: user-defined, built-in, and fields
+    - AWK infers the type of a variable from context. When necessary, awk will convert a string value into a numeric one, or vice versa
+    - An uninitialized variable has the string value "" (the null string) and the numeric value 0
+**** Built-in variables
+     | Variable | Meaning                                    | Default |
+     | ARGC     | number of command-line arguments           | -       |
+     | ARGV     | array of command-line arguments            | -       |
+     | FILENAME | name of current input file                 | -       |
+     | FNR      | record number in current file              | -       |
+     | FS       | controls the input field separator         | " "     |
+     | NF       | number of fields in current record         | -       |
+     | NR       | number of records read so far              | -       |
+     | OFMT     | output format for numbers                  | "%.6g"  |
+     | OFS      | output field separator                     | " "     |
+     | ORS      | output record separator                    | "\n"    |
+     | RLENGTH  | length of string matched by *match* function | -       |
+     | RS       | controls the input record separator        | "\n"    |
+     | RSTART   | start of string matched by *match* function  | -       |
+     | SUBSEP   | subscript separator                        | "\034"  |
+**** Field variables
+     - The fields of the current input line are called $1, $2, through $NF; $0 refers to the whole line
+
+* Practice
+  1. Print the total number of input lines
+  2. Print the tenth input line
+  3. Print the last field of every input line
+  4. Print the last field of the last input line
+  5. Print every input line with more than four fields
+  6. Print every input line in which the last field is more than 4
+  7. Print the total number of fields in all input lines
+  8. Print the total number of lines that contain /Beth/
+  9. Print the largest first field and the line that contains it (assumes some $1 is positive)
+  10. Print every line that has at least one field
+  11. Print every line longer than 80 characters
+  12. Print the number of fields in every line followed by the line itself
+  13. Print the first two fields, in opposite order, of every line
+  14. Exchange the first two fields of every line and then print the line
+  15. Print every line with the first field replaced by the line number
+  16. Print every line after erasing the second field
+  17. Print in reverse order the fields of every line
+  18. Print the sums of the fields of every line
+  19. Add up all fields in all lines and print the sum
+  20. Print every line after replacing each field by its absolute value
