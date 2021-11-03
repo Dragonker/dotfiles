@@ -1,76 +1,83 @@
 * Games
 ** PC
-   - Persona 4
-   - Baldur's Gate II (and expansion)
-   - Celeste (and classic)
-   - Celeste 2
-   - Kimi wa Shine
-   - Dwarf Fortress
-   - Starcraft
-   - Morrowind: Bloodmoon
-   - Ion Fury
-   - DUSK
+*** TODO Persona 4
+*** TODO Baldur's Gate II (and expansion)
+*** TODO Celeste (and classic)
+*** TODO Celeste 2
+*** TODO Kimi wa Shine
+*** TODO Dwarf Fortress
+*** TODO Starcraft
+*** TODO Morrowind: Bloodmoon
+*** TODO Ion Fury
+*** TODO DUSK
+*** TODO VA-11 HALL-A
+*** TODO Blasphemous
 ** N64
-   - Ocarina of Time
-   - Majora's Mask
-   - Ocarina of Time
-   - Super Mario 64
-   - Banjoo-Kazooie
+*** TODO Ocarina of Time
+*** TODO Majora's Mask
+*** TODO Ocarina of Time
+*** TODO Super Mario 64
+*** TODO Banjoo-Kazooie
 ** SNES
-   - Super Metroid
-   - Chrono Trigger
-   - Terranigma
-   - Megaman X
+*** TODO Super Metroid
+*** TODO Chrono Trigger
+*** TODO Terranigma
+*** TODO Megaman X
 ** Gameboy (Advance)
-   - Harmony of Dissonance
-   - Final Fantasy Adventure
-   - Castlevania II: Belmont's Revenge
-   - Golden Sun
-   - Warioland 3
-   - Metal Gear: Ghost Babel
-   - FFVI
-   - Megaman Zero
-   - Link's Awakening
+*** DONE Metroid Fusion (replay)
+*** TODO Harmony of Dissonance
+*** TODO Final Fantasy Adventure
+*** TODO Castlevania II: Belmont's Revenge
+*** TODO Golden Sun
+*** TODO Warioland 3
+*** TODO Metal Gear: Ghost Babel
+*** TODO FFVI
+*** TODO Megaman Zero
+*** TODO Link's Awakening
+*** TODO Metroid II: Return of Samus
 ** DS
-   - Explorers of the Sky
-   - Dawn of Sorrow
-   - Portrait of Ruin
+*** TODO Explorers of the Sky
+*** TODO Dawn of Sorrow
+*** TODO Portrait of Ruin
 ** PSX
-   - Xenogears
-   - Megaman Legends
-   - Megaman X4
-   - Megaman X5
+*** TODO Xenogears
+*** TODO Megaman Legends
+*** TODO Megaman X4
+*** TODO Megaman X5
 ** PSP
-   - Crisis Core
+*** TODO Crisis Core
 ** DOOM (WADs)
-   - Eviternity
-   - Ancients Aliens
-   - Back to Saturn X
-   - Mordeth
-   - AUGER;ZENITH
-   - REKKR
-   - Plutonia
-   - HACX
-   - Freedoom
-   - Romero's E1
-   - BACULUS (old and new)
-   - STRAIN
-   - Paradise
-   - Scythe
+*** TODO Eviternity
+*** TODO Ancients Aliens
+*** TODO Back to Saturn X
+*** TODO Mordeth
+*** TODO AUGER;ZENITH
+*** TODO REKKR
+*** TODO Plutonia
+*** TODO HACX
+*** TODO Freedoom
+*** TODO Romero's E1
+*** TODO BACULUS (old and new)
+*** TODO STRAIN
+*** TODO Paradise
+*** TODO BLOOM
 * Movies
-  - サマーウォーズ
-  - ハウルの動く城
-  - LOTR
-  - Die Hard
+** TODO サマーウォーズ
+** DONE ハウルの動く城 
+   /Howl's Moving Castle/ is a Studio Ghibli film. Vivid colors, great designs, and excellent shots meet with a strong anti-war message in this 2004 film. Overall, a great movie if somewhat slow. There's no clear antagonist, which is key to its fable-like feel: the characters and the interactions between them are the focus.
+** TODO LOTR
+** TODO Die Hard
+** TODO Spirited Away
+** TODO My Neighbor Totoro
 * Manga/anime
-  - O Maidens in Your Savage Season
-  - Kill La Kill
-  - No Game No Life
-  - Kaguya-sama
-  - Senryuu Shoujo
-  - 一人ぼっちの○○生活
-  - 暗殺教室
-  - Tsurezure Children (reread)
-  - Kimi wa Houkago Insomnia
-  - Bonnouji
-  - Honey and Clover
+** TODO O Maidens in Your Savage Season
+** TODO Kill La Kill
+** TODO No Game No Life
+** TODO Kaguya-sama
+** TODO Senryuu Shoujo
+** TODO 一人ぼっちの○○生活
+** TODO 暗殺教室
+** TODO Tsurezure Children (reread)
+** TODO Kimi wa Houkago Insomnia
+** TODO Bonnouji
+** TODO Honey and Clover

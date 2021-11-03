@@ -11,6 +11,9 @@
 ** DONE Call /Cuqui/
 ** DONE Call /Raul/
 ** DONE Receive "bonos" for Rosario
+** TODO Look for repairmen for Cuqui's TV remote
+** TODO Buy DUROVAL
+** TODO Search for retirement homes for Cuqui
    
 * Study
 ** Languages

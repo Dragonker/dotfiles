@@ -105,7 +105,81 @@
      | SUBSEP   | subscript separator                        | "\034"  |
 **** Field variables
      - The fields of the current input line are called $1, $2, through $NF; $0 refers to the whole line
+     - When $0 is changed by assignment or substitution, $1, $2, etc., and NF will be recomputed; likewise, when one of $1, $2, etc., is changed, $0 is reconstructed using OFS to separate fields
+     - Fields can also be specified by expressions, e.g. $(NF-1)—note that parentheses are needed as $NF-1 is one less than the numeric value of the last field
+     - A field variable referring to a nonexistent field, e.g., $(NF+1), has its initial value the null string. A new field can be created by assigning a value to it
+     - There's usually an implementation limit of 100 fields per line
+*** Operators
+    - The value of a comparison expression is 1 if true and 0 otherwise. Similarly, the value of a matching expression is 1 if true, 0 if false
+    - On logical operations, an operand with a nonzero or nonnull value is true; other values are treated as false
+**** Arithmetic
+     1. +
+     2. -
+     3. *
+     4. /
+     5. %
+     6. ^
+**** Comparison
+     1. <
+     2. <=
+     3. ==
+     4. !=
+     5. >=
+     6. >
+     7. ~
+     8. !~
+**** Logical
+     1. &&
+     2. ||
+     3. !
+**** Conditional
+     1. expr1 ? expr2 : expr3
+**** Assignment
+     1. =
+     2. +=
+     3. -=
+     4. *=
+     5. /=
+     6. %=
+     7. ^=
+**** Increment and decrement
+     1. ++n or postfix
+     2. --n or postfix
+**** String operators
+     - There is only one string operation, concatenation. It has no explicit operator: string expressions are created by writing constants, variables, fields, array elements, functions values, and other expressions next to one another
+**** Strings as Regular Expressions
+     - Any expression can be used as the right-hand argument of a matching operation. Awk evaluates the expression, converts the value to a string if necessary, and interprets the string as a regular expression
+     - Since expressions can be concatenated, a regular expression can be built up from components
+       #+BEGIN_SRC awk
+	 BEGIN {
+	     sign = "[+-]?"
+	     decimal = "[0-9]+[.]?[0-9]*"
+	     fraction = "[.][0-9]+"
+	     exponent = "([eE]" sign "[0-9]+)?"
+	     number = "^" sign "(" decimal "|" fraction ")" exponent "$"
+	 }
 
+	 $0 ~ number
+       #+END_SRC
+     - In a matching expression, a quoted string like ~"^[0-9]+$"~ can normally be used interchangeably with a regular expression enclosed in slashes, such as ~/^[0-9]+$/~. There is one exception, however. If the string in quotes is to match a literal occurrence of a regular expression metacharacter, one extra backslash is need to protect the backslash itself. That is,
+       #+BEGIN_SRC awk
+	 $0 ~ /(\+|-)[0-9]+/
+
+	 $0 ~ "(\\+|-)[0-9]+"
+       #+END_SRC
+       are equivalent
+     - If the right operand of a matching operator is a variable or field variable, as in ~x ~ $1~, then the additional level of backslashes is not needed in the first field because backslashes have no special meaning in data
+*** Bult-in functions
+**** Arithmetic
+     1. atan2(y,x) -- atan2(0, -1) gives /PI/
+     2. cos(x)
+     3. exp(x) -- exp(1) gives /e/
+     4. int(x)
+     5. log(x) -- log(x) / log(10) to get the base-10 logarithm of /x/
+     6. rand() -- int(n * rand()) + 1 for getting a random integer between 1 and n, inclusive
+     7. sin(x)
+     8. sqrt(x)
+     9. srand(x) -- srand() sets the starting point from the time of day
 * Practice
   1. Print the total number of input lines
   2. Print the tenth input line

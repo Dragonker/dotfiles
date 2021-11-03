@@ -1,0 +1,3 @@
+* Common issues
+** My XBOX 360 controller doesn't work
+   Check if your user is member of the ~input~ group

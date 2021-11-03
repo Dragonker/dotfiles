@@ -1,0 +1,20 @@
+#+TITLE: Setting up DOOM (music)
+* Introduction
+For me, DOOM music is a core part of its charm, but setting it up on Linux is quite the mess.
+
+I'll write down what has worked for me in some distributions—Arch Linux and Void Linux—for some ports—PrBoom+, GZDoom, Woof!, and Chocolate/Crispy DOOM. If you solved issues related to <insert source port NOT mentioned here> on <insert distribution NOT mentioned here> please post a comment and I'll try to add it to this post.
+* ZDOOM-based ports
+  - Music in these ports works out-of-the-box.
+  - If you want to change the default soundfont, check Appendix A: Soundfonts.
+  - GZDoom, the /de facto/ leader among its brethen, 
+* Timidity++ (Chocolate DOOM-based ports)
+  1. Download a patch set, like eawpats or freepats, and extract it to some location. These come with a "timidity.cfg" file which must be put in some location (e.g. /etc/timidity)
+  2. Use the setup utility (chocolate-doom-setup or crispy-doom-setup) 
+  3. Sometimes Chocolate/Crispy DOOM doesn't respect what you put in the "Timidity configuration file" bit (happened to me on Arch32). For that, use
+* SDL_MIXER (PrBoom-based ports)
+** Fluidsynth [PrBoom+ on Arch]
+   1. Change SDL_SOUNDFONTS variable to the location of the soundfont file
+** Timidity (built-in) [Woof! on Void Linux]
+   1. As per the instructions in the official web for SDL_Mixer, download a GUS-compatible patch set and extract it to /usr/local/lib/timidity
+* Appendix A: Soundfonts
+* Appendix B: A brief story of DOOM audio from a non-expert
